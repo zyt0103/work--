@@ -1,0 +1,6 @@
+.has-error .form-control{
+    background-color: #FCDCDD;
+}
+.has-error .form-control:focus{
+    background-color: transparent;
+}
