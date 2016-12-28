@@ -5,35 +5,309 @@
     <title>form设计</title>
     <link rel="stylesheet" type="text/css" href="bootstrap-3.3.0/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="form.css" />
+    <script src="font_wz7s1lnta9x2bj4i/iconfont.js"></script>
+    <style>
+        textarea{
+            overflow: visible;
+            resize: none;
+        }
+    </style>
 </head>
 <body>
-<input type="text" class="form-control" placeholder="请输入文字">
+<ul style="float: right;position:fixed;right: 20px;font-size: 18px">
+    <li><a href="#1" name="1">表单</a></li>
+    <li><a href="#2" name="2">输入框</a></li>
+    <li><a href="#多选和单选" name="多选和单选">多选和单选</a>
+    </li>
+</ul>
 <h1></h1>
-<div class="input-group">
-    <input type="text" class="form-control" >
+<h3 id="1" style="margin-left: 80px">表单</h3>
+<div style="width: 70%;margin: 20px auto" >
+    <form role="form" class="form-contain">
+        <div class="form-head">
+            <span>表单输入</span>
+        </div>
+        <div class="form-content">
+            <div class="form-group">
+                <label for="exampleInputUsername">Username</label>
+                <span class="form-marker"><svg class="icon" aria-hidden="true"  >
+                    <use xlink:href="#icon-icon12"></use></svg>
+                </span>
+                <input type="text" class="form-control" id="exampleInputUsername" >
+                <p class="form-reminder">提示文字提示文字提示文字</p>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <span class="form-marker"><svg class="icon" aria-hidden="true"  >
+                    <use xlink:href="#icon-icon12"></use></svg>
+                </span>
+                <input type="password" class="form-control" id="exampleInputPassword1" >
+                <p class="form-reminder">提示文字提示文字提示文字</p>
+            </div>
+        </div>
+    </form>
+    <h1></h1>
+    <p>code：</p>
+    <textarea style="width: 100%;height:500px">
+    <form role="form" class="form-contain">
+        <div class="form-head">
+            <span>表单输入</span>
+        </div>
+        <div class="form-content">
+            <div class="form-group">
+                <label for="exampleInputUsername">Username</label>
+                <span class="form-marker"><svg class="icon" aria-hidden="true"  >
+                    <use xlink:href="#icon-icon12"></use></svg>
+                </span>
+                <input type="text" class="form-control" id="exampleInputUsername" >
+                <p class="form-reminder">提示文字提示文字提示文字</p>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <span class="form-marker"><svg class="icon" aria-hidden="true"  >
+                    <use xlink:href="#icon-icon12"></use></svg>
+                </span>
+                <input type="password" class="form-control" id="exampleInputPassword1" >
+                <p class="form-reminder">提示文字提示文字提示文字</p>
+            </div>
+        </div>
+    </form>
+    </textarea>
+</div>
+
+<div style="width: 70%;margin: 20px auto">
+    <form role="form" class="form-contain">
+        <div class="form-head">
+            <span>表单输入</span>
+        </div>
+        <div class="form-content">
+            <div class="form-group">
+                <div class=" form-content-head">
+                    <span class="form-marker">
+                        <svg class="icon" aria-hidden="true"  >
+                            <use xlink:href="#icon-icon12"></use>
+                        </svg>
+                    </span>
+                    <label for="Username">Username</label>
+                </div>
+                <div class="form-content-content">
+                    <input type="text" class="form-control " id="Username" >
+                    <p class="form-reminder">提示文字提示文字提示文字</p>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class=" form-content-head">
+                    <span class="form-marker">
+                        <svg class="icon" aria-hidden="true"  >
+                            <use xlink:href="#icon-icon12"></use>
+                        </svg>
+                    </span>
+                    <label for="Password">Password</label>
+                </div>
+                <div class="form-content-content">
+                    <input type="text" class="form-control " id="Password" >
+                    <p class="form-reminder">提示文字提示文字提示文字</p>
+                </div>
+            </div>
+        </div>
+    </form>
+    <h1></h1>
+    <p>code：</p>
+    <textarea style="width: 100%;height:500px">
+        <form role="form" class="form-contain">
+            <div class="form-head">
+                <span>表单输入</span>
+            </div>
+            <div class="form-content">
+                <div class="form-group">
+                    <div class=" form-content-head">
+                        <span class="form-marker">
+                            <svg class="icon" aria-hidden="true"  >
+                                <use xlink:href="#icon-icon12"></use>
+                            </svg>
+                        </span>
+                        <label for="Username">Username</label>
+                    </div>
+                    <div class="form-content-content">
+                        <input type="text" class="form-control " id="Username" >
+                        <p class="form-reminder">提示文字提示文字提示文字</p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class=" form-content-head">
+                        <span class="form-marker">
+                            <svg class="icon" aria-hidden="true"  >
+                                <use xlink:href="#icon-icon12"></use>
+                            </svg>
+                        </span>
+                        <label for="Password">Password</label>
+                    </div>
+                    <div class="form-content-content">
+                        <input type="text" class="form-control " id="Password" >
+                        <p class="form-reminder">提示文字提示文字提示文字</p>
+                    </div>
+                </div>
+            </div>
+    </form>
+    </textarea>
 </div>
 <h1></h1>
-<div class="input-group">
-    <input type="text" class="form-control" placeholder="请输入文字">
+<h3 id="2" style="margin-left: 80px">输入框</h3>
+<div style="width: 70%;margin: 0 auto">
+    <h1></h1>
+    <div class="input-group input-group-lg">
+        <input type="text" class="form-control form-control-radius" placeholder="Username">
+    </div>
+    <h1></h1>
+    <div class="input-group">
+        <input type="text" class="form-control form-control-radius" placeholder="Username">
+    </div>
+    <h1></h1>
+    <div class="input-group input-group-sm">
+        <input type="text" class="form-control form-control-radius" placeholder="Username">
+    </div>
+    <h1></h1>
+    <p>code：</p>
+    <textarea style="width: 100%;height: 250px">
+    <div class="input-group input-group-lg">
+        <input type="text" class="form-control form-control-radius" placeholder="Username">
+    </div>
+
+    <div class="input-group">
+        <input type="text" class="form-control form-control-radius" placeholder="Username">
+    </div>
+
+    <div class="input-group input-group-sm">
+        <input type="text" class="form-control form-control-radius" placeholder="Username">
+    </div>
+    </textarea>
+    <h1></h1>
+    <div class="input-group">
+        <input type="text" class="form-control form-control-radius " placeholder="不可输入" disabled>
+    </div>
+    <h1></h1>
+    <div class="input-group has-error ">
+        <input type="text" class="form-control form-control-radius" placeholder="请输入文字">
+    </div>
+    <h1></h1>
+    <p>code：</p>
+    <textarea style="width: 100%;height: 150px">
+    <div class="input-group">
+        <input type="text" class="form-control form-control-radius " placeholder="不可输入" disabled>
+    </div>
+
+    <div class="input-group has-error ">
+        <input type="text" class="form-control form-control-radius" placeholder="请输入文字">
+    </div>
+    </textarea>
+
+    <h1></h1>
+    <div class="input-group  ">
+        <select class="form-control ">
+            <option>请选择需要的方式</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+        </select>
+    </div>
+    <h1></h1>
+    <p>code：</p>
+    <textarea style="width: 100%;height: 180px">
+    <div class="input-group  ">
+        <select class="form-control ">
+            <option>请选择需要的方式</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+        </select>
+    </div>
+    </textarea>
 </div>
 <h1></h1>
-<div class="input-group">
-    <input type="text" class="form-control " placeholder="不可输入" disabled>
+<h3 id="多选和单选" style="margin-left: 80px">多选和单选</h3>
+<div style="width: 70%;margin: 0 auto" >
+    <h4>Checkbox</h4>
+    <div >
+        <input class="magic-checkbox" type="checkbox" name="layout" id="c1">
+        <label for="c1">Normal</label>
+    </div>
+    <div >
+        <input class="magic-checkbox" type="checkbox" name="layout" id="c2" checked>
+        <label for="c2">Checked</label>
+    </div>
+    <div >
+        <input class="magic-checkbox" type="checkbox" name="layout" id="c3" value="option2" disabled>
+        <label for="c3" style="color:#ccc">Disabled</label>
+    </div>
+    <div >
+        <input class="magic-checkbox" type="checkbox" name="layout" id="c4" checked disabled>
+        <label for="c4" style="color:#ccc">Checked && Disabled</label>
+    </div>
+    <h1></h1>
+    <p>code：</p>
+    <textarea style="width: 100%;height: 350px">
+    <div >
+        <input class="magic-checkbox" type="checkbox" name="layout" id="c1">
+        <label for="c1">Normal</label>
+    </div>
+    <div >
+        <input class="magic-checkbox" type="checkbox" name="layout" id="c2" checked>
+        <label for="c2">Checked</label>
+    </div>
+    <div >
+        <input class="magic-checkbox" type="checkbox" name="layout" id="c3" value="option2" disabled>
+        <label for="c3" style="color:#ccc">Disabled</label>
+    </div>
+    <div >
+        <input class="magic-checkbox" type="checkbox" name="layout" id="c4" checked disabled>
+        <label for="c4" style="color:#ccc">Checked && Disabled</label>
+    </div>
+    </textarea>
+    <h4>Radio</h4>
+    <div >
+        <input class="magic-radio" type="radio" name="radio" id="r1" value="option1">
+        <label for="r1">Normal</label>
+    </div>
+    <div >
+        <input class="magic-radio" type="radio" name="radio" id="r2" value="option2" checked>
+        <label for="r2">Checked</label>
+    </div>
+    <div >
+        <input class="magic-radio" type="radio" name="radio" id="r3" value="option3" disabled>
+        <label for="r3" style="color:#ccc">禁用</label>
+    </div>
+    <div >
+        <input class="magic-radio" type="radio" id="r4" value="option4" checked disabled>
+        <label for="r4" style="color:#ccc">Checked && Disabled</label>
+    </div>
+    <h1></h1>
+    <p>code：</p>
+    <textarea style="width: 100%;height: 350px">
+    <div >
+        <input class="magic-radio" type="radio" name="radio" id="r1" value="option1">
+        <label for="r1">Normal</label>
+    </div>
+    <div >
+        <input class="magic-radio" type="radio" name="radio" id="r2" value="option2" checked>
+        <label for="r2">Checked</label>
+    </div>
+    <div >
+        <input class="magic-radio" type="radio" name="radio" id="r3" value="option3" disabled>
+        <label for="r3" style="color:#ccc">禁用</label>
+    </div>
+    <div >
+        <input class="magic-radio" type="radio" id="r4" value="option4" checked disabled>
+        <label for="r4" style="color:#ccc">Checked && Disabled</label>
+    </div>
+
+    </textarea>
 </div>
-<h1></h1>
-<input type="text" class="form-control " placeholder="不可输入" disabled>
-<h1></h1>
-<div class="input-group has-error ">
-    <input type="text" class="form-control " placeholder="请输入文字">
-</div>
-<h1></h1>
-<div class="input-group  ">
-    <select  class="form-control ">
-        <option>请选择需要的方式</option>
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-    </select>
-</div>
+
+<script>
+    var textarea=document.getElementsByTagName("textarea");
+    for (var item in textarea){
+        textarea[item].readOnly="reaOnly"
+    }
+</script>
 </body>
 </html>

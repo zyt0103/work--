@@ -1,10 +1,10 @@
 
 @font-face {font-family: "iconfont";
-  src: url('iconfont.eot?t=1482740269783'); /* IE9*/
-  src: url('iconfont.eot?t=1482740269783#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('iconfont.woff?t=1482740269783') format('woff'), /* chrome, firefox */
-  url('iconfont.ttf?t=1482740269783') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('iconfont.svg?t=1482740269783#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('iconfont.eot?t=1482895887177'); /* IE9*/
+  src: url('iconfont.eot?t=1482895887177#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1482895887177') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1482895887177') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1482895887177#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
@@ -22,6 +22,8 @@
 .icon-daochu2:before { content: "\e62d"; }
 
 .icon-jiahao:before { content: "\e6eb"; }
+
+.icon-icon12:before { content: "\e635"; }
 
 .icon-daochu3:before { content: "\e63a"; }
 
