@@ -1,0 +1,51 @@
+.icon {
+    width: 2em; height: 2em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    padding: 0 2px;
+}
+.walter{
+    border: 1px solid #9D9D9D;
+    background-color: #fff;
+    width: 300px;
+    border-radius: 4px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    font-size: 13px;
+    position: relative;
+}
+.walter-content{
+    padding: 20px;
+    text-align: center;
+}
+.walter-head{
+    font-size: 18px;
+    padding: 10px;
+}
+.walter-group{
+    padding:0 10px 20px 10px;
+}
+.walter-foot{
+    margin-bottom: 10px;
+}
+.walter-yes{
+    background-color: #9D9D9D;
+    border-radius: 2px;
+    border: 1px solid #9D9D9D;
+    width: 30%;
+    margin-right: 10px;
+}
+.walter-no{
+    background-color: #fff;
+    border: 1px solid #9D9D9D;
+    border-radius: 2px;
+    width: 30%;
+}
+.walter-chahao{
+    color: #9D9D9D;
+    font-size: 14px;
+    cursor: pointer;
+    position: absolute;
+    top:0;
+    right: 0;
+}

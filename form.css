@@ -14,6 +14,7 @@
 .form-contain{
     width: 100%;
     border: 1px solid #EEEEEE;
+    background-color: #fff;
 }
 .form-head{
     font-size: 16px;
